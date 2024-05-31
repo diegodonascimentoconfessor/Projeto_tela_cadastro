@@ -43,7 +43,9 @@ header {
 }
 
 
-
+#Menu-hamburguer{
+  display: none;
+}
 
 nav ul {
   display: flex;
@@ -108,7 +110,7 @@ main {
   height: 400px;
   background-color: #fff;
   margin-top: 20px;
-  padding: 20px;
+  padding: 30px;
   box-shadow: 0 2px 5px rgba(34, 0, 224, 0.1);
   border-top-right-radius: 100px;
   
@@ -209,10 +211,14 @@ header {
   margin-left: 1px;
   background-color: #1c486f;
 }
-
-nav ul {
-  display: flex;
+#Menu-hamburguer{
+  display:flex;
   flex-direction: row;
+}
+nav ul {
+  display: none;
+  flex-direction: row;
+
   list-style: none;
   padding: 0;
   margin: 0;
@@ -238,7 +244,7 @@ nav ul li a {
 
 
 #box-img {
-  display: flex;
+  display: none;
   flex-direction: column;
   border: solid 1px rgb(255, 0, 64);
   width: 450 px; 
@@ -251,6 +257,7 @@ nav ul li a {
 #box-cadastro {
   background-image: url("imagem/2.png");
   background-size: cover;
+  width: 720px;
   background-position: center;
   background: linear-gradient(rgba(252, 199, 119, 0.7), rgba(252, 199, 119, 0.7)), url("imagem/2.png") no-repeat center center;
   color:#1C486F ;
@@ -263,13 +270,13 @@ main {
 .cadastro {
   display: flex;
   flex-direction: column;
-  width: 720 px;
-  height: 400px;
+  width: 700 px;
+  height: 450px;
   background-color:#fff;
-  margin-top: 20px;
-  padding: 20px;
+  margin-top: 30px;
+  padding-right: 40px;
   box-shadow: 0 2px 5px rgba(0.11, 0.28, 0.44);
-  border-top-right-radius: 100px;
+  border-top-right-radius: 150px;
   
 }
 
@@ -314,13 +321,12 @@ main {
 }
 
 .botoes .voltar-button {
-  background-color: #FCBD5E; /
+  background-color: #FCBD5E; 
 }
 
 .botoes .voltar-button:hover {
   background-color: #2980b9; 
 }
-
 
 }
 
