@@ -92,10 +92,10 @@ nav ul li a {
 }
 
 #box-cadastro {
-  background-image: url("imagem/2.png");
+  background-image: url("imagem_cadastro/2.png");
   background-size: cover;
   background-position: center;
-  background: linear-gradient(rgba(252, 199, 119, 0.7), rgba(252, 199, 119, 0.7)), url("imagem/2.png") no-repeat center center;
+  background: linear-gradient(rgba(252, 199, 119, 0.7), rgba(252, 199, 119, 0.7)), url("imagem_cadastro/2.png") no-repeat center center;
   color: #1C486F;
 }
 
@@ -256,11 +256,11 @@ nav ul li a {
 }
 
 #box-cadastro {
-  background-image: url("imagem/2.png");
+  background-image: url("imagem_cadastro/2.png");
   background-size: cover;
   height: 1080px ;
   background-position: center;
-  background: linear-gradient(rgba(252, 199, 119, 0.7), rgba(252, 199, 119, 0.7)), url("imagem/2.png") no-repeat center center;
+  background: linear-gradient(rgba(252, 199, 119, 0.7), rgba(252, 199, 119, 0.7)), url("imagem_cadastro/2.png") no-repeat center center;
   color:#1C486F ;
 }
 
