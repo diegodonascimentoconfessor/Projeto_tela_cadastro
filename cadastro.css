@@ -266,9 +266,12 @@ nav ul li a {
   height: 1080px ;
   background-position: center;
   background: linear-gradient(rgba(252, 199, 119, 0.7), rgba(252, 199, 119, 0.7)), url("imagem_cadastro/2.png") no-repeat center center;
+
+  background-size: 2000px;
   color:#1C486F ;
   align-items: center;
   padding-right: 100px;
+  
 }
 
 
@@ -329,7 +332,7 @@ main {
 }
 
 .botoes button {
-  padding: 10px 80px;
+  padding: 10px 50px;
   background-color: #1C486F;
   color: #fff;
   border: none;
